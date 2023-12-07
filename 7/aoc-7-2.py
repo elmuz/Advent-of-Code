@@ -130,4 +130,3 @@ if __name__ == '__main__':
     with Path("aoc-7.txt").open() as f:
         lines = f.readlines()
     print(run(lines))
-    # 253624309
