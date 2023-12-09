@@ -8,6 +8,7 @@ def compute_differences(row: List[int]) -> List[int]:
         output.append(b - a)
     return output
 
+
 def extrapolate_one_line(line: str) -> int:
     row = [int(n) for n in line.split(" ")]
     rows = [row]
